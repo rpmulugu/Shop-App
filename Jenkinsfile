@@ -20,6 +20,15 @@ pipeline {
             }
             }
             } 
-       
+         
+        stage ('Deploy Code' ){
+            steps {
+            withMaven(maven: 'maven'){
+            sh 'mvn deploy'
+            }
+            }
+            } 
+        
+        
     }//stages main
 } //pipeline
