@@ -13,10 +13,10 @@ pipeline {
             }
         }
     
-        stage ('Testing Code' ){
+        stage ('Package Code' ){
             steps {
             withMaven(maven: 'maven'){
-            sh 'mvn test'
+            sh 'mvn build'
             }
             }
             } 
