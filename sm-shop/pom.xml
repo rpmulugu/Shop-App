@@ -209,7 +209,7 @@
 				</executions>
 			</plugin>
 		</plugins>
-		<finalName>ROOT</finalName>
+		<finalName>shopapp</finalName>
 	</build>
 
 
