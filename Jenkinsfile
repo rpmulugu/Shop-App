@@ -16,7 +16,7 @@ pipeline {
         stage ('Package Code' ){
             steps {
             withMaven(maven: 'maven'){
-            sh 'mvn build'
+            sh 'mvn package'
             }
             }
             } 
