@@ -19,12 +19,12 @@ pipeline {
             }
         } 
         
-         stage ('Deployment Phase' ){
-            steps {
-            withMaven(maven: 'maven'){
-            sh 'mvn deploy'
-            }
-            }
-        }
+    #     stage ('Deployment Phase' ){
+    #        steps {
+    #        withMaven(maven: 'maven'){
+    #        sh 'mvn deploy'
+    #        }
+    #        }
+    #    }
     }
 }
