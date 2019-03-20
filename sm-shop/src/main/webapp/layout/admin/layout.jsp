@@ -163,7 +163,7 @@ response.setDateHeader ("Expires", -1);
   
   
 		<footer> 
- 			<p>&copy; Shopizer-March-2019-Latest-<%=Calendar.getInstance().get(Calendar.YEAR)%></p> 
+ 			<p>&copy; Shopizer-21-March-2019-NEW-<%=Calendar.getInstance().get(Calendar.YEAR)%></p> 
 		</footer> 
   
   
